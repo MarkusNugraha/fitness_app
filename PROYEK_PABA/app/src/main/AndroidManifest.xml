@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PROYEKPABA"
+        tools:targetApi="31">
+        <activity
+            android:name=".FormDataDiri"
+            android:exported="false" />
+        <activity
+            android:name=".Billy.Edit_Daily_Calorie"
+            android:exported="false" />
+        <activity
+            android:name=".Billy.Track_Calorie"
+            android:exported="false" />
+        <activity
+            android:name=".Billy.Daily_Calorie_Requirements"
+            android:exported="false" />
+        <activity
+            android:name=".calvin.Edit_Bodyfat"
+            android:exported="false" />
+        <activity
+            android:name=".calvin.bodyfathistory"
+            android:exported="false" />
+        <activity
+            android:name=".EditProfile"
+            android:exported="false" />
+        <activity
+            android:name=".Setting"
+            android:exported="false" />
+        <activity
+            android:name=".markus.BMI_History"
+            android:exported="false" />
+        <activity
+            android:name=".calvin.Body_Fat_Percentage"
+            android:exported="false" />
+        <activity
+            android:name=".calvin.Ideal_Weight"
+            android:exported="false" />
+        <activity
+            android:name=".SignUp"
+            android:exported="false" />
+        <activity
+            android:name=".Home"
+            android:exported="false" />
+        <activity
+            android:name=".markus.BMI_Calculator"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

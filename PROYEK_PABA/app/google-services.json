@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "162568445049",
+    "project_id": "dbproyekpaba-99020",
+    "storage_bucket": "dbproyekpaba-99020.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:162568445049:android:d9247b1abfb5097639c8a8",
+        "android_client_info": {
+          "package_name": "petra.ac.id.proyekpaba"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7YS8PVIM2WCK4edbKMapwut7lCN_-X0Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
